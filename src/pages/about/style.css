@@ -1,0 +1,79 @@
+﻿.sec_sp {
+    margin-bottom: calc(1.5rem + 2.2vw);
+}
+
+.t_border {
+    border-color: #ccb7a5 !important;
+}
+
+.table {
+    background: #fffaf5;
+    border: 1px solid #e7d9cc;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table td,
+.table th {
+    color: var(--text-color);
+    padding: 0.85rem 0.9rem;
+    border-color: #e8dccc;
+}
+
+.progress-title {
+    font-size: 0.98rem;
+    font-weight: 700;
+    margin: 0 0 0.55rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.progress {
+    height: 8px;
+    background: #e9d9ca;
+    border-radius: 999px;
+    box-shadow: none;
+    margin-bottom: 1.35rem;
+    overflow: visible;
+}
+
+.progress .progress-bar {
+    position: relative;
+    background: var(--text-color-3);
+    animation: animate-positive 1.6s;
+    overflow: visible;
+    opacity: 0.95;
+    border-radius: 999px;
+}
+
+.progress .progress-value {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-color-2);
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+.service_ {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #ebdfd4;
+}
+
+.service__title {
+    padding: 0;
+    margin-bottom: 0.35rem;
+    border-bottom: none;
+    color: var(--text-color);
+}
+
+.service_desc {
+    margin: 0;
+    color: var(--text-color-2);
+    line-height: 1.75;
+}
